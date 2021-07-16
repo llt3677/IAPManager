@@ -6,6 +6,11 @@ class Tests: XCTestCase {
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        IAPManager.shared.addListener { success, transation, errMsg in
+            if success {
+//                do sthmod
+            }
+        }
     }
     
     override func tearDown() {

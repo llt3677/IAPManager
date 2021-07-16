@@ -12,10 +12,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11ADCC38938FAFE3EB58F642 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1CA207076227BAC9558D7B5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		11ADCC38938FAFE3EB58F642 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1CA207076227BAC9558D7B5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		41A0050C225BFA569E73EFA5 /* Pods_IAPManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IAPManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		422776CF89834AB1774E59BD /* IAPManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IAPManager.podspec; path = ../IAPManager.podspec; sourceTree = "<group>"; };
+		422776CF89834AB1774E59BD /* IAPManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IAPManager.podspec; path = ../IAPManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		51BF8F367587C3870053F6C9 /* Pods-IAPManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAPManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IAPManager_Tests/Pods-IAPManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* IAPManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAPManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,7 +95,6 @@
 				51BF8F367587C3870053F6C9 /* Pods-IAPManager_Tests.debug.xcconfig */,
 				FEE38AEE3FB65ED5B9393416 /* Pods-IAPManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
