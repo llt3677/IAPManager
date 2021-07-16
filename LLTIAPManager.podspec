@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'IAPManager'
+  s.name             = 'LLTIAPManager'
   s.version          = '1.0.0'
   s.summary          = '内购封装'
 
@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
 苹果内购封装
                        DESC
 
-  s.homepage         = 'https://github.com/llt/IAPManager'
+  s.homepage         = 'https://github.com/llt3677/IAPManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'llt' => 'llt3677@163.com' }
-  s.source           = { :git => 'https://github.com/llt/IAPManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/llt3677/IAPManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.swift_versions = '5.0'
 
   s.source_files = 'IAPManager/Classes/**/*'
   

@@ -1,16 +1,16 @@
 PODS:
-  - IAPManager (1.0.0)
+  - LLTIAPManager (1.0.0)
 
 DEPENDENCIES:
-  - IAPManager (from `../`)
+  - LLTIAPManager (from `../`)
 
 EXTERNAL SOURCES:
-  IAPManager:
+  LLTIAPManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IAPManager: d104fba26f7fd2ea30bc2157408aa323ad4301ec
+  LLTIAPManager: 19fc2f11ee38b42fd03edca961d0de8463e13086
 
-PODFILE CHECKSUM: abd045f5394e19e23f3eaa8a5539d079bfd42589
+PODFILE CHECKSUM: 4535f4d3f4bbaa0ee5d9986325b04195f2abee68
 
 COCOAPODS: 1.10.1

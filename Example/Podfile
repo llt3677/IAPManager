@@ -1,6 +1,6 @@
 use_frameworks!
 target 'IAPManager_Tests' do
-  pod 'IAPManager', :path => '../'
+  pod 'LLTIAPManager', :path => '../'
   
   
 end
