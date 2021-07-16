@@ -1,9 +1,9 @@
 # IAPManager
 
-[![CI Status](https://img.shields.io/travis/llt/IAPManager.svg?style=flat)](https://travis-ci.org/llt/IAPManager)
-[![Version](https://img.shields.io/cocoapods/v/IAPManager.svg?style=flat)](https://cocoapods.org/pods/IAPManager)
-[![License](https://img.shields.io/cocoapods/l/IAPManager.svg?style=flat)](https://cocoapods.org/pods/IAPManager)
-[![Platform](https://img.shields.io/cocoapods/p/IAPManager.svg?style=flat)](https://cocoapods.org/pods/IAPManager)
+[![CI Status](https://img.shields.io/travis/llt/LLTIAPManager.svg?style=flat)](https://travis-ci.org/llt/IAPManager)
+[![Version](https://img.shields.io/cocoapods/v/LLTIAPManager.svg?style=flat)](https://cocoapods.org/pods/LLTIAPManager)
+[![License](https://img.shields.io/cocoapods/l/LLTIAPManager.svg?style=flat)](https://cocoapods.org/pods/LLTIAPManager)
+[![Platform](https://img.shields.io/cocoapods/p/LLTIAPManager.svg?style=flat)](https://cocoapods.org/pods/LLTIAPManager)
 
 ## Example
 
